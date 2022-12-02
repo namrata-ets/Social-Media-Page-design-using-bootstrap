@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Social Media Page Design Using Bootstrap</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src="https://kit.fontawesome.com/1d78ac0dfc.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container-fluid">   
+     <div class="row"  style="background-color: #084e72";>
+        <div class="col-sm-3 col-md-3 col-lg-3 header">
+            <img src="./assets/logo1.png" width="80" height="80">
+            <h3>My Pageantry</h3>
+        </div>
+
+        <div class="col-sm-3 col-md-3 col-lg-3">
+            <input type="search" class="searchbar" placeholder="Search">
+            <i class="fa-solid fa-magnifying-glass fa-2x"></i>   
+        </div>
+
+        <div class="col-sm-6 col-md-6 col-lg-6  gy-5">
+           <ul class="profileoptions"> 
+               <li> 
+                    <img src=".\assets\owl2.png" width="60" height="60"> </img>
+                </li>
+               <li>      
+                 <select>
+                            <option value="dishant" selected>Dishant</option>
+                            <option value="profile">Profile</option>
+                            <option value="log out">Log Out</option>
+                </select> 
+                </li>
+                 <li>
+                    <a href="#">
+                        <i class="fa-solid fa-house-chimney" style="font-size:23px;color:#FFFFFF"></i>      
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa-solid fa-envelope" style="font-size:23px;color:#FFFFFF"></i>
+                        <span class="badge">2</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa-solid fa-bell" style="font-size:23px;color:#FFFFFF"></i>
+                        <span class="badge">4</span>
+                    </a>
+                </li>
+         </ul>
+        </div>
+    </div>
+
+    <div class="col-sm-2 col-md-2 col-lg-2 griditemleft">
+        <div class="profilecard">
+            <img src="./assets/owl2.png" class="card-img-top" alt="Loading..">
+            <div class="card-body">
+              <h5 class="card-title">Dishant Mehta</h5>
+            </div>
+          </div>
+          <div class="crowncard" style="width:312px;height:180px"> 
+            <img src="./assets/crownimg.png" class="card-img-top" width="180" height="140" alt="Loading..">
+          </div>
+        
+        
+        <div class="leftpanel">
+                <p>
+                    <img src="./assets/profileicon.png" width="40" height="40">
+                    <span>Profile</span>
+                </p>
+                <p>
+                    <img src="./assets/sunglasses.png" width="40" height="30">
+                    <span>Pageantry</span>
+                </p>
+                <p>
+                    <img src="./assets/crown.png" width="40" height="40">
+                    <span>Crowns</span>
+                </p>
+                <p>
+                    <img src="./assets/star.png" width="40" height="40">
+                    <span> Wishlist</span>
+                </p>
+                <p>
+                    <img src="./assets/family-tree.png" width="40" height="40">
+                    <span> Family Tree</span>
+                </p>
+                <p>
+                    <img src="./assets/contacts.png" width="40" height="40">
+                    <span>Contacts</span>
+                </p>
+                <p>
+                    <img src="./assets/group.png" width="40" height="40">
+                    <span>Groups</span>
+                </p>
+                <p>
+                    <img src="./assets/events.png" width="40" height="40">
+                    <span>Events</span>
+                </p>
+        </div>
+    </div>
+    <div class="col-sm-6 col-md-6 col-lg-6 topmenu">
+        <div class="row pageantry">
+                  <p>Today's Pageantry !</p>  
+        </div>
+        <div class="row options">
+           
+                <div class="optionitem">
+                    <i class="fa-regular fa-image"></i>
+                    <span>Image</span>
+                 </div>
+                 <div class="optionitem">
+                    <i class="fa-solid fa-circle-play"></i> 
+                    <span>Video</span>
+                 </div>
+                 <div class="optionitem">
+                    <i class="fa-solid fa-music"></i></i>
+                    <span>Audio</span>
+                </div>
+                <div class="optionitem">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <span>Location</span>
+                </div>
+                <div class="optionitem">
+                    <i class="fa-regular fa-face-smile"></i>
+                    <span>Confused?</span>
+                </div>
+               <div class="optionitem">
+                <i class="fa-solid fa-tag"></i>
+                     <span>Tag Friends</span> 
+                </div> 
+                <select>
+                    <option value="friends">Friends</option>
+                </select> 
+                <button type="button" class="btn">Post</button>
+        </div>
+
+        </div>
+    </div>
+</div>
+</body>
+</html>
